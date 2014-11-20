@@ -13,6 +13,7 @@
 		B57653B81A1D6554004DE7F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57653B71A1D6554004DE7F5 /* Images.xcassets */; };
 		B57653BB1A1D6554004DE7F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57653B91A1D6554004DE7F5 /* LaunchScreen.xib */; };
 		B57653C71A1D6554004DE7F5 /* AlishPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57653C61A1D6554004DE7F5 /* AlishPongTests.swift */; };
+		B57653D11A1D6768004DE7F5 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57653D01A1D6768004DE7F5 /* BallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B57653C01A1D6554004DE7F5 /* AlishPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlishPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57653C51A1D6554004DE7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57653C61A1D6554004DE7F5 /* AlishPongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlishPongTests.swift; sourceTree = "<group>"; };
+		B57653D01A1D6768004DE7F5 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B57653B01A1D6554004DE7F5 /* AppDelegate.swift */,
 				B57653B21A1D6554004DE7F5 /* ViewController.swift */,
+				B57653D01A1D6768004DE7F5 /* BallView.swift */,
 				B57653B41A1D6554004DE7F5 /* Main.storyboard */,
 				B57653B71A1D6554004DE7F5 /* Images.xcassets */,
 				B57653B91A1D6554004DE7F5 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57653D11A1D6768004DE7F5 /* BallView.swift in Sources */,
 				B57653B31A1D6554004DE7F5 /* ViewController.swift in Sources */,
 				B57653B11A1D6554004DE7F5 /* AppDelegate.swift in Sources */,
 			);
